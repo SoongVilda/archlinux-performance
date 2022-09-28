@@ -35,9 +35,6 @@ The daemon goes through the list of userspace tasks (once per 5 seconds) and hin
 ## System configs tweaks
 These tweaks bring minor performance improvements, but it's still notable.
 
-### /etc/modprobe.d
-- NVreg_EnablePCIeGen3=1
-
 ### /etc/security/limits.d
 - **audio** - realtime & audio adjustments.
 - **esync** - Stability improvements.
