@@ -20,6 +20,9 @@ Tweaks is provided by `cachyos-settings`
 ```
 sudo pacman -S --needed cachyos-settings linux-cachyos linux-cachyos-headers
 ```
+*Note: You need `linux-cachyos` kernel*, because of `uksmd` - I tested all stuffs with `linux-cachyos`, if you want to use another kernel, it should include feature `uksmd`.
+- I didn't test another kernel, so it's up to you. My last word, I only tried with `linux-cachyos`.
+
 # Package [`cachyos-settings`](https://github.com/CachyOS/CachyOS-Settings) contains following tweaks:
 
 ## [Irqbalance](https://github.com/Irqbalance/irqbalance)
